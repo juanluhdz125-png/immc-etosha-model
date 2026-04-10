@@ -56,7 +56,7 @@ col_map = st.container()
 
 with col_map:
     m1, m2, m3 = st.columns(3)
-  m1.metric("Puntuación de Protección", f"{protection_score:.1f}%")
+    m1.metric("Puntuación de Protección", f"{protection_score:.1f}%")
     m2.metric("Efectivos Disponibles", "295") [cite: 9]
     m3.metric("Área Etosha", "22,935 km²") [cite: 6]
 
